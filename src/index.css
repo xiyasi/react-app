@@ -1,0 +1,96 @@
+/* @import '~antd/dist/antd.css'; */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    background-color: #ddd;
+}
+/* header */
+.headerwrap{
+    height: 50px;
+    background-color: #444;
+}
+.headerwrap header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.headerwrap img{
+    margin-top: 10px;
+    width: 120px;
+}
+.headerwrap a{
+    margin: 0 20px;
+    color: #fff;
+}
+.search{
+    margin-left: 50px;
+}
+/* main */
+.main{
+    width: 1200px;
+    margin: 30px auto;
+}
+.content{
+    width: 900px;
+    height: 40px;
+    float: left;
+    background-color: rgb(236, 229, 229);
+    padding-top: 10px;
+}
+.tab{
+    margin-left: 20px;
+    color: green;
+}
+.sider{
+    width: 270px;
+    height: 1000px;
+    float: right;
+    margin-right: 40px;
+}
+.lieb{
+    margin-top: 20px;
+    width: 880px;
+    padding-left: 20px;
+    background-color: white;
+    float:left;
+    
+}
+.lieb li{
+    width: 880px;
+    border-bottom-color: #AAAAAA;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    height:"32px";
+    float:left;
+}
+.wd{
+    color: rgb(133, 133, 130);
+    font-size: 15px;
+    background-color: yellowgreen;
+    margin-top: 5px;
+}
+.rq{
+    color: #AAAAAA;
+    font-size: 10px;
+    margin-top: 8px;
+}
+.tm{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.butn li{
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.dl{
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    margin-left: 300px;
+}
